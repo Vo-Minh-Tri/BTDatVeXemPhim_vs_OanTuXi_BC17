@@ -1,0 +1,74 @@
+.bg-film {
+  background-image: url(./assets/bgmovie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+.btn {
+  background-color: #fff;
+  color: #000;
+}
+.smallbox::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.greenbox::before {
+  content: "";
+  background-color: green;
+}
+.redbox::before {
+  content: "";
+  background-color: red;
+}
+.emptybox::before {
+  content: "";
+  background-color: white;
+}
+
+.ghe {
+  border: 3px solid orange;
+  width: 45px;
+  height: 35px;
+  font-size: 12px;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+}
+
+.screen {
+  background-color: #ff9800;
+  width: 900px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.gheDuocChon {
+  border: 3px solid orange;
+  background: orange;
+  color: #000;
+  cursor: no-drop !important;
+  border-radius: 5px;
+  width: 45px;
+  height: 35px;
+}
+
+.gheDangChon {
+  background: rgb(109, 238, 109);
+  border: 3px solid rgb(109, 238, 109);
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 45px;
+  height: 35px;
+}
+
+.table {
+  width: 900px;
+}
